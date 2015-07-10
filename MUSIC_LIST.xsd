@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Gurm_Musics">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="song"/>
+	<xs:complexType>
+	  <xs:sequence>
+	    <xs:element name="songName" type="xs:string"/>
+	    <xs:element name="writer" type="xs:string"/>
+	    <xs:element name="gurmNum" type="xs:positiveInteger"/>
+	  </xs:sequence>
+	</xs:complexType>
+      </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>
